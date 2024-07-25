@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Detetive</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ficha</h1>
+
+        <div class="section">
+            <h2>Suspeitos</h2>
+            <ul>
+                <li><input type="checkbox" id="suspect1" class="checkbox">Senhor Marinho</li>
+                <li><input type="checkbox" id="suspect2" class="checkbox">Coronel Mostarda</li>
+                <li><input type="checkbox" id="suspect3" class="checkbox">Dona Branca</li>
+                <li><input type="checkbox" id="suspect4" class="checkbox">Senhora Violeta</li>
+                <li><input type="checkbox" id="suspect5" class="checkbox">Professor Black</li>
+                <li><input type="checkbox" id="suspect6" class="checkbox">Senhora Rosa</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Armas</h2>
+            <ul>
+                <li><input type="checkbox" id="weapon1" class="checkbox">Cano de Chumbo</li>
+                <li><input type="checkbox" id="weapon2" class="checkbox">Corda</li>
+                <li><input type="checkbox" id="weapon3" class="checkbox">Chave Inglesa</li>
+                <li><input type="checkbox" id="weapon4" class="checkbox">Castiçal</li>
+                <li><input type="checkbox" id="weapon5" class="checkbox">Faca</li>
+                <li><input type="checkbox" id="weapon6" class="checkbox">Revólver</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Locais</h2>
+            <ul>
+                <li><input type="checkbox" id="location1" class="checkbox">Sala de Estar</li>
+                <li><input type="checkbox" id="location2" class="checkbox">Cozinha</li>
+                <li><input type="checkbox" id="location3" class="checkbox">Sala de Jantar</li>
+                <li><input type="checkbox" id="location4" class="checkbox">Biblioteca</li>
+                <li><input type="checkbox" id="location5" class="checkbox">Escritório</li>
+                <li><input type="checkbox" id="location6" class="checkbox">Salão de Jogos</li>
+                <li><input type="checkbox" id="location7" class="checkbox">Sala de Música</li>
+                <li><input type="checkbox" id="location8" class="checkbox">Jardim de Inverno</li>
+                <li><input type="checkbox" id="location9" class="checkbox">Hall</li>
+            </ul>
+        </div>
+
+        <div class="button-class">
+            <button class="button" onclick="saveData()">Salvar</button>
+            <button class="button" onclick="loadData()">Carregar</button>
+            <button class="button" onclick="clearData()">Limpar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
